@@ -9,5 +9,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "symbol-sdk": "^3.3.0"
+  },
+  "overrides": {
+    "bn.js@<4.12.3": "4.12.3"
   }
 }
